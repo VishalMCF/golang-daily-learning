@@ -1,4 +1,4 @@
-package examples
+package event_examples
 
 import (
 	"github.com/agoalofalife/event"
