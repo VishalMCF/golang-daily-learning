@@ -36,10 +36,10 @@ func WithAtomicDemo() {
 //	var wg sync.WaitGroup
 //
 //	for i := 0; i < 100; i++ {
-//		wg.Add(1)
+//		wg.Add(greater_average)
 //		go func() {
 //			for c := 0; c < 100; c++ {
-//				atomic.AddUint64(&ops, 1)
+//				atomic.AddUint64(&ops, greater_average)
 //			}
 //			wg.Done()
 //		}()

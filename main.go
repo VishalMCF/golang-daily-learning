@@ -1,6 +1,8 @@
 package main
 
-import atomic_concept "event-package-test/concurrency/atomic-concept"
+import (
+	atomic_concept "event-package-test/concurrency/atomic-concept"
+)
 
 func main() {
 	// event-examples.OneToMany()
