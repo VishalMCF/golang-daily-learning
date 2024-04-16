@@ -1,0 +1,4 @@
+github.com/agoalofalife/event v0.2.0 h1:E9OF34qWmSInC9VMdVexqYfciUsyZmNnv2LvaDSNEeY=
+github.com/agoalofalife/event v0.2.0/go.mod h1:lhsAxXoFRukfKsbiRmTrAmMjWOxH2QKjbcUtUB+7h5s=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
