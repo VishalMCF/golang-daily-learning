@@ -1,8 +1,6 @@
 package main
 
-import (
-	atomic_concept "event-package-test/concurrency/atomic-concept"
-)
+import "event-package-test/reflection"
 
 func main() {
 	// event-examples.OneToMany()
@@ -10,5 +8,7 @@ func main() {
 	// event-examples.ExampleEventAndChallels()
 	// mutexes_concept.Demo()
 	// atomic_concept.NonAtomicDemo()
-	atomic_concept.WithAtomicDemo()
+	// atomic_concept.WithAtomicDemo()
+	// reflection.Print()
+	reflection.TestReflection()
 }
