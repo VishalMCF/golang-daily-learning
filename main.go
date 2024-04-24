@@ -1,14 +1,16 @@
 package main
 
-import "event-package-test/reflection"
+import binary_recipes "event-package-test/binary-recipes"
 
 func main() {
-	// event-examples.OneToMany()
+	// event_examples.OneToMany()
 	// event-examples.ExampleBaseServer()
-	// event-examples.ExampleEventAndChallels()
+	// event-examples.ExampleEventAndChannels()
 	// mutexes_concept.Demo()
 	// atomic_concept.NonAtomicDemo()
 	// atomic_concept.WithAtomicDemo()
 	// reflection.Print()
-	reflection.TestReflection()
+	// reflection.TestReflection()
+	// event_examples.TestStructAsKey()
+	binary_recipes.Demo_for_Gob_Encoding()
 }
