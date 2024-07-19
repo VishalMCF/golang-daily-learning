@@ -1,6 +1,12 @@
 package main
 
-import binary_recipes "event-package-test/binary-recipes"
+import (
+	"fmt"
+)
+
+type Student struct {
+	a, b, c int
+}
 
 func main() {
 	// event_examples.OneToMany()
@@ -12,5 +18,12 @@ func main() {
 	// reflection.Print()
 	// reflection.TestReflection()
 	// event_examples.TestStructAsKey()
-	binary_recipes.Demo_for_Gob_Encoding()
+	s := Student{
+		a: 3,
+		b: 5,
+		c: 1,
+	}
+	a := make(map[string]int)
+	a["0"] = 1
+	fmt.Println("Hello World ", a["0"], s)
 }
